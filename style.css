@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 15px 200px;
+    margin-bottom: 50px;
+}
+
+.profile {
+    border: 2px solid #ffffff;
+    border-radius: 15%;
+    overflow: hidden;
+}
+
+.dark-mode {
+    background-color: #1c1c1c;
+    color: #fff;
+}
+
+.dark-mode .card {
+    background-color: #222;
+    color: #fff;
+}
+
+.dark-mode .btn-dark {
+    background-color: #444;
+}
+
+.dark-mode .modal-content {
+    background-color: #222;
+    color: #fff;
+}
+
+.dark-mode .card-project {
+    background-color: #444;
+    color: #fff;
+}
+
+.dark-mode .name-font {
+    font-family: arial black;
+    font-size: 24px;
+}
+
+#imageViewer {
+    padding: 0;
+    border: none;
+    max-width: 90vw;
+    max-height: 100vh;
+}
+
+#viewerImage {
+    max-width: 100%;
+    max-height: 100vh;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    display: block;
+}
+
+@media (max-width: 1000px) {
+    body {
+        margin: 5px 10px;
+    }
+}

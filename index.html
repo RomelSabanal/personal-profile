@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="icon" href="images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Romel Sabanal</title>
+</head>
+
+<body>
+
+    <section class="container mt-3 rounded-4">
+        <div class="d-flex flex-row justify-content-between">
+            <div class="d-flex flex-row gap-3">
+                <div class="rounded-4 profile">
+                    <img src="images/TPC_-03-31-25-_KIM-6514.JPG " alt="Profile Picture " width="90">
+                </div>
+                <div class="d-flex flex-column ">
+                    <p class="mt-4 m-0 h3 name-font">Romel Sabanal</p>
+                    <p class="m-0 "><i class="bi bi-geo-alt-fill "></i> Busalian, Talibon, Bohol</p>
+                    <p class="btn btn-dark m-0 ">BS in Information Systems</p>
+                </div>
+            </div>
+            <div class="mt-5">
+                <i id="themeToggle" class="bi bi-moon-fill fs-6"></i>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="row mt-0 g-3 align-items-stretch">
+            <div class="col-12 col-md-8">
+                <div class="card card-rounded shadow-sm p-3 h-100">
+                    <p class="fw-bold">
+                        <i class="bi bi-person-circle mx-2"></i> About Me
+                    </p>
+                    <p>
+                        I am a fresh graduate with a Bachelor of Science in Information Systems. Although I am new to the professional field, I am passionate about web development and technology. I have basic knowledge in HTML, CSS, JavaScript, Bootstrap, and PHP, and I am continuously
+                        learning to improve my skills. I am a hardworking and motivated individual who enjoys solving problems and building simple, functional websites. I am eager to gain real-world experience and grow as a developer through new opportunities
+                        and challenges.
+                    </p>
+                    <button class="btn btn-dark mt-3 w-50 " data-bs-toggle="modal" data-bs-target="#contactModal">
+                    <i class="bi bi-envelope-fill me-2"></i>Send me an Email
+                    </button>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="card card-rounded shadow-sm p-3 flex-fill h-100">
+                    <p class="fw-bold"><i class="bi bi-mortarboard-fill mx-2"></i> Education</p>
+                    <p class="m-0 btn btn-dark w-50 p-0">2021-2025</p>
+                    <p class="m-0 fw-bold">Bachelor of Science in Information Systems</p>
+                    <p class="m-0 ">Talibon Polytechnic College</p>
+                    <p class="m-0 small">San Isidro, Talibon, Bohol</p>
+                    <p class="m-0 btn btn-dark w-50 p-0 mt-3">2015-2021</p>
+                    <p class="m-0 ">Mayor Catalino Y Casoyla Memorial High School</p>
+                    <p class="m-0 small">Suba, Talibon, Bohol</p>
+                    <p class="m-0 btn btn-dark w-50 p-0 mt-3">2009-2015</p>
+                    <p class="m-0 ">Busalian Elementary School</p>
+                    <p class="m-0 small">Busalian, Talibon, Bohol</p>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="contactModalLabel">Copy Email</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <label for="message" class="col-form-label">
+                        Please copy this so you can send me a message.
+                         </label>
+                        <div class="input-group">
+                            <input type="text" readonly class="form-control" id="message" value="sabanalromel0@gmail.com">
+                            <button class="btn btn-primary" id="copyEmailBtn" type="button">
+                             <i class="bi bi-clipboard"></i>
+                             </button>
+                        </div>
+                    </div>
+                    <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+                        <div id="copyToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                            <div class="toast-header">
+                                <strong class="me-auto">Success</strong>
+                                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                            </div>
+                            <div class="toast-body">
+                                Email copied!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="row mt-0 g-3">
+            <div class="col-12 col-md-8">
+                <div class="card card-rounded shadow-sm p-3 h-100">
+                    <p class="fw-bold"><i class="bi bi-award-fill mx-2"></i>Experience</p>
+                    <p class="fw-bold m-0">Internship</p>
+                    <p class="m-0 w-50 m-0">Febuary 2025 - June 2025</p>
+                    <ul>
+                        <li>Web Designer</li>
+                        <li>Web Development</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="card card-rounded shadow-sm p-3 h-100">
+                    <p class="fw-bold"><i class="bi bi-laptop-fill mx-2"></i> Technical Skills</p>
+                    <div>
+                        <small class="btn btn-dark fw-100 p-0 m-1">HTML</small>
+                        <small class="btn btn-dark fw-100 p-0 m-1">CSS</small>
+                        <small class="btn btn-dark fw-100 p-0 m-1">JavaScript</small>
+                        <small class="btn btn-dark fw-100 p-0 m-1">Bootstrap</small>
+                        <small class="btn btn-dark fw-100 p-0 m-1">PHP</small>
+                        <small class="btn btn-dark fw-100 p-0 m-1">LARAVEL</small>
+                        <small class="btn btn-dark fw-100 p-0 m-1">KOTLIN</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="row mt-0 g-3">
+            <div class="col-12 col-md-8">
+                <div class="card card-rounded shadow-sm p-3 h-100">
+                    <p class="fw-bold"><i class="bi bi-award-fill mx-2"></i>Experience</p>
+                    <p class="fw-bold m-0">Internship</p>
+                    <p class="m-0 w-50 m-0">Febuary 2025 - June 2025</p>
+                    <ul>
+                        <li>Web Designer</li>
+                        <li>Web Development</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="card card-rounded shadow-sm p-3 flex-fill h-100">
+                    <p class="fw-bold"><i class="bi bi-telephone-fill mx-2"></i> Contact Me</p>
+                    <small>Have a project in mind, collaboration proposal, or just want to say hello? Let’s connect.</small>
+                    <div class="d-flex flex-row gap-1 justify-content-center mt-2">
+                        <a href="https://www.facebook.com/sabanalromel0" target="_blank" class="btn btn-dark w-50"><i class="bi bi-facebook bg-primary rounded-circle object-fit-cover"></i></a>
+                        <a href="https://www.instagram.com/hacked__png/" target="_blank" class="btn btn-dark w-50"><i class="bi bi-instagram bg-danger rounded-circle object-fit-cover"></i></a>
+
+                    </div>
+                    <button class="btn btn-dark mt-3 w-100" data-bs-toggle="modal" data-bs-target="#contactModal"><i class="bi bi-envelope-fill me-2"></i>Send me an Email</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="card card-rounded shadow-sm mt-3 p-3 flex-fill w-100">
+            <p class="fw-bold"><i class="bi bi-briefcase-fill mx-2"></i>Projects</p>
+            <div class="card card-rounded shadow-4 mb-5 card-project">
+                <div class="card card-rounded shadow-lg f-flex flex-row shadow-sm p-3 m-1">
+                    <img src="images/profileproject.JPG" alt="Laptop Image" width="100%" height="50%" class="rounded-4 zoomable">
+                </div>
+                <div class="m-0 px-3 mb-2">
+                    <small class="m-0">2025 • Personal Project</p>
+                    <p class="fw-bold fs-4 m-0">Profile</p>
+                    <small class="m-0"><i class="bi bi-laptop-fill"></i>Programming Laguage</small>
+                    <div>
+                        <small class="btn btn-secondary fw-100 m-1">HTML</small>
+                        <small class="btn btn-secondary fw-100 m-1">CSS</small>
+                        <small class="btn btn-secondary fw-100 m-1">JavaScript</small>
+                        <small class="btn btn-secondary fw-100 m-1">Bootstrap</small>
+                    </div>
+                </div>
+            </div>
+            <div class="card card-rounded shadow-4 mb-5 card-project">
+                <div class="card card-rounded shadow-lg f-flex flex-row shadow-sm p-3 m-1">
+                    <img src="images/tydc.JPG" alt="Laptop Image" width="100%" height="50%" class="rounded-4 zoomable">
+                </div>
+                <div class="m-0 px-3 mb-2">
+                    <small class="m-0">2025 • On-the-Job Training(OJT) Project</p>
+                    <p class="fw-bold fs-4 m-0">Local Youth Development Office</p>
+                    <p>The TYDC Website is a dynamic web-based system developed to manage and present organizational information efficiently. The platform provides a structured organizational chart displaying key roles such as Head, Chairman, My7, and committee members, all retrieved dynamically from a MySQL database.</p>
+                    <small class="m-0"><i class="bi bi-laptop-fill"></i>Tools & Programming Laguage</small>
+                    <div>
+                        <small class="btn btn-secondary fw-100 m-1">HTML</small>
+                        <small class="btn btn-secondary fw-100 m-1">CSS</small>
+                        <small class="btn btn-secondary fw-100 m-1">JavaScript</small>
+                        <small class="btn btn-secondary fw-100 m-1">Bootstrap</small>
+                        <small class="btn btn-secondary fw-100 m-1">PHP</small>
+                        <small class="btn btn-secondary fw-100 m-1">LARAVEL</small>
+                        <small class="btn btn-secondary fw-100 m-1">MYSQL</small>
+                        <small class="text-primary fw-bold float-end mt-3 ">Completed</small>
+                    </div>
+                </div>
+            </div>
+            <div class="card card-rounded shadow-4 card-project">
+                <div class="card card-rounded shadow-lg d-flex flex-row justify-content-between m-1">
+                    <img src="capstone/Homepage - Scans.png" alt="Capstone Image" width="20%" class="rounded-4 zoomable">
+                    <img src="capstone/Gallery Scan.png" alt="Capstone Image" width="20%" class="rounded-4 zoomable">
+                    <img src="capstone/Now Scanning(Capture).png" alt="Capstone Image" width="20%" class="rounded-4 zoomable">
+                    <img src="capstone/Profile.png" alt="Capstone Image" width="20%" class="rounded-4 zoomable">
+                </div>
+                <div class="m-0 px-3 mb-2">
+                    <small class="m-0">2024-2025 • Capstone Project</p>
+                    <p class="fw-bold fs-4 m-0">LeafSense • Android Application</p>
+                    <p>LeafSense is an Android mobile application that helps users detect and identify plant leaf health conditions using RoboFlow machine learning models. The app is designed to classify leaf images into categories such as healthy, iron deficiency, and zinc deficiency</p>
+                    <small class="m-0"><i class="bi bi-laptop-fill"></i>Tools & Programming Laguage</small>
+                    <div>
+                        <small class="btn btn-secondary fw-100 m-1">KOTLIN</small>
+                        <small class="btn btn-secondary fw-100 m-1">JAVA</small>
+                        <small class="btn btn-secondary fw-100 m-1">FIREBASE</small>
+                        <small class="btn btn-secondary fw-100 m-1">RoboFlow (ResNet)</small>
+                        <small class="text-primary fw-bold float-end mt-3 ">Completed • Defended</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="row mt-0 g-3">
+            <div class="col-12 col-md-12">
+                <div class="card card-rounded shadow-sm p-3 w-100 ">
+                    <p class="fw-bold"><i class="bi bi-trophy-fill mx-2"></i>Certificates</p>
+                    <div class="justify-content-between d-flex flex-row flex-wrap h-100 row-gap-1">
+                        <img src="certificate/Certificate.JPG" alt="Certificate Image" width="19.6%" height="50%" class="rounded-4 zoomable p-1">
+                        <img src="certificate/Certificate2.JPG" alt="Certificate Image" width="19.6%" height="50%" class="rounded-4 zoomable p-1">
+                        <img src="certificate/Certificate3.JPG.png" alt="Certificate Image" width="19.6%" height="50%" class="rounded-4 zoomable p-1">
+                        <img src="certificate/Certificate5.png" alt="Certificate Image" width="19.6%" height="50%" class="rounded-4 zoomable p-1">
+                        <img src="certificate/Certificate6.png" alt="Certificate Image" width="19.6%" height="50%" class="rounded-4 zoomable p-1">
+                        <img src="certificate/Certificate7.png" alt="Certificate Image" width="19.6%" height="50%" class="rounded-4 zoomable p-1">
+                        <img src="certificate/Certificate8.png" alt="Certificate Image" width="19.6%" height="50%" class="rounded-4 zoomable p-1">
+                        <img src="certificate/Certificate9.png" alt="Certificate Image" width="19.6%" height="50%" class="rounded-4 zoomable p-1">
+                        <img src="certificate/Certificate10.png" alt="Certificate Image" width="19.6%" height="50%" class="rounded-4 zoomable p-1">
+                        <img src="certificate/Certificate11.png" alt="Certificate Image" width="19.6%" height="50%" class="rounded-4 zoomable p-1">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <dialog id="imageViewer">
+        <img id="viewerImage" class="rounded-4">
+    </dialog>
+</body>
+<script src="index.js "></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js " integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM " crossorigin="anonymous "></script>
+
+</html>
