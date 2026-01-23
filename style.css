@@ -65,8 +65,11 @@ body {
 #imageViewer {
     padding: 0;
     border: none;
+    outline: none;
+    background: transparent;
     max-width: 90vw;
     max-height: 100vh;
+    
 }
 
 #viewerImage {
@@ -82,4 +85,5 @@ body {
     body {
         margin: 5px 10px;
     }
+
 }
